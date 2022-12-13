@@ -3,56 +3,67 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,900;1,100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Landing Page</title>
   </head>
+  <style> @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); </style>
   <body>
+    <div class="section1">
     <div class="header">
-      <div class="header logo">Header Logo</div>
-      <ul>
-        <li>header link one</li>
-        <li>header link two</li>
-        <li>header link three</li>
+      <img src="./images/logo.png" alt="" class="header-logo">
+      <ul class="links">
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Contest</a></li>
+        <li><button type="button" name="button" class="login">Log In</button></li>
       </ul>
     </div>
     <div class="hero">
       <div class="hero-left">
-        <div class="title">This website is awesome</div>
-        <div class="text">This website has some subtext that goes here under the main title. It's a smaller font and the color in a lower contrast</div>
-        <button type="button" name="button" class="signup">Sign up</button>
+        <div class="hero-title">Game of the Year: 2022</div>
+        <div class="hero-text">Giant blockbusters go toe-to-toe with stellar Indies in the best games of 2022.</div>
+        <button type="button" name="button" class="signup">Vote Now!</button>
       </div>
-      <div class="image">this is a placeholder for an image<div>
-    </div
+      <img src="./images/goty.png" alt="" class="hero-image">
+    </div>
+    </div>
+    <div class="section2">
     <div class="content">
-      <div class="information">Some random information.</div>
+      <div class="information">Game Awards Nominees</div>
       <div class="cards">
         <div class="info">
-          <div class="frame"></div>
-          <div class="text">this is some subtext under an illustration or image</div>
+          <h3>Best Direction</h3>
+          <img src="./images/goty_elden.jpg" alt="" class="frame">
+          <div class="text">Awarded for outstanding creative vision and innovation in game direction and design.</div>
         </div>
         <div class="info">
-          <div class="frame"></div>
-          <div class="text">this is some subtext under an illustration or image</div>
+          <h3>Best Narrative</h3>
+          <img src="./images/goty_gow.jpg" alt="" class="frame">
+          <div class="text">For outstanding storytelling and narrative development in a game.</div>
         </div>
         <div class="info">
-          <div class="frame"></div>
-          <div class="text">this is some subtext under an illustration or image</div>
+          <h3>Best Indie</h3>
+          <img src="./images/goty_stray.jpg" alt="" class="frame">
+          <div class="text">For outstanding creative and technical achievement in a game made outside the traditional publisher system.</div>
         </div>
         <div class="info">
-          <div class="frame"></div>
-          <div class="text">this is some subtext under an illustration or image</div>
+          <h3>Best Action Game</h3>
+          <img src="./images/bayonetta.jpg" alt="" class="frame">
+          <div class="text">For the best game in the action genre focused primarily on combat.</div>
         </div>
       </div>
     </div>
+    </div>
+    <div class="section3">
     <div class="qoute">
-      <p id="qoute">This is an inspiring qoute, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+      <p id="qoute">You seem like a calm and reasonable person, are you calm and a reasonable person?</p>
       <p id="author">-Thor, God of thunder</p>
+    </div>
     </div>
     <div class="cta">
       <div class="blue">
         <div class="cta-content">
-          <div class="cta-title">Call to action! It's time!</div>
-          <div class="cta-text">Sign up for our product by clicking that button right over there!</div>
+          <div class="cta-title">Vote for your favorite games now!</div>
+          <div class="cta-text">Sign up and exercise your right.</div>
         </div>
         <button type="button" name="button" class="signup2">Sign up</button>
       </div>
